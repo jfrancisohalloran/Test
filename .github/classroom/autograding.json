@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test Column Names",
+      "setup": "",
+      "run": "python -m unittest tests/testColumnNames.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Data Length",
+      "setup": "",
+      "run": "python -m unittest tests/testDataLength.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Pieces",
+      "setup": "",
+      "run": "python -m unittest tests/testPieces.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Price",
+      "setup": "",
+      "run": "python -m unittest tests/testPrice.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Set Names",
+      "setup": "",
+      "run": "python -m unittest tests/testSetNames.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Function",
+      "setup": "",
+      "run": "python -m unittest tests/testFunction.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test Write File",
+      "setup": "",
+      "run": "python -m unittest tests/testWriteFile.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

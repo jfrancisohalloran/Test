@@ -73,7 +73,7 @@ def collectLegoSets(startURL):
     return lego_df
 
 startURL = "https://brickset.com/sets/year-2019"
-
+lego2019_df = collectLegoSets(startURL)
 print(f"Total sets scraped: {lego2019_df.shape[0]}")
 
 lego2019_df.to_csv('lego2019.csv', index=False)
